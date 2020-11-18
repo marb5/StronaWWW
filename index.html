@@ -30,10 +30,73 @@
     <p>5 &lt; 10</p>
     <p>&int;</p>
 
+    <b>Pogrubiony tekst</b><br /> <!--bold-->
+    <i>Pochylony tekst</i><br /> <!--italic-->
+    <u>Podkreślony tekst</u><br /> <!--underline-->
+    <s>Przekreślony tekst</s><br /> <!--strike-->
+
+    <font size="15">To jest tekst</font><br />
+    <font color="blue">Niebieski tekst</font><br />
+    <font face="Segoe Script">Tekst napisany czcionką Segoe Script</font><br />
+    <font face="Yu Gothic">Tekst napisany czcionką Yu Gothic</font><br />
+    <font face="Segoe Script, Yu Gothic">Tekst napisany czcionką Segoe Script, jeżeli nie ma to Yu Gothic</font><br />
+    <font face="Yu Gothic, Segoe Script">Tekst napisany czcionką Yu Gothic, jeżeli nie ma to Segoe Script</font><br />
+
+    <strong>Pogrubiony tekst i niesie on wartość semantyczną</strong><br />
+    <em>Pochylony tekst i niesie on wartość semantyczną</em><br />
+    x<sup>2</sup><br />
+    a<sub>1</sub><br />
+    <sup>Tekst</sup>Tekst<sub>Tekst</sub>
+
+    <!--header = nagłówek-->
+    <h1>Główny nagłówek</h1>
+    <h2>Podnagłówek</h2>
+    <h3>Mniej ważny nagłówek</h3>
+    <h6>Najmniej ważny nagłówek</h6>
+
+    <pre> <!--preformatted-->
+    <code>
+    #include &lt;iostream&gt;
+    
+    int main(){
+        std::cout &lt;&lt; &quot;Hello world!&quot; &lt;&lt; std::endl;
+        system(&quot;pause&quot;);
+        return 0;
+    }
+    </code>
+    </pre>
+
+    &lt;pre> - Preformatowany tekst<br />
+
+    <var>int a; int b;</var><br />
+
+    <p>
+    <blockquote cite="www.google.pl">
+        Wiadomo, że taki a taki pomysł jest nie do zrealizowania. Ale żyje sobie jakiś nieuk, który o tym nie wie. I on właśnie dokonuje tego wynalazku.
+    </blockquote>
+    <cite>Albert Einstein</cite> <!--cite - przytaczać-->
+    </p>
+
+    <dfn> <!--define - definiować-->
+        Definicja
+    </dfn>
+    <pre>
+    <address>
+        Jan Kowalski
+        12-123, Gdynia
+        ul. Topolowa 23
+    </address>
+    </pre>
+
+    <acronym lang="en" title="World Wide Web Consortium">W3C</acronym><br/>
+    <abbr title="profesor">prof.</abbr> <!--abbrevation - skrót--><br/>
+    <abbr title="doktor">dr</abbr><br/>
+
     <p align="center">
         <a href="http://validator.w3.org/check?uri=referer">
             <img src="http://www.w3.org/Icons/valid-xhtml10" alt="Valid XHTML 1.0 Transitional" height="31" width="88" />
         </a>
     </p>
+
 </body>
 </html>
