@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pl" lang="pl">
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <meta http-equiv="content-language" content="pl" />
+
+        <meta name="author" content="Marcin Bieleń" />
+        <meta name="robots" content="index, follow" />
+        <title>Programowanie, Marcin Bieleń</title>
+        <meta name="description" content="Programowanie, frontend, backend, machine learning, cybersecurity" />
+        <meta name="keywords" content="programowanie, frontend, backend, machine learning, cybersecurity" />
+    </head>
+    <body style="background-color:#D3D3D3">
+        <form action="mailto:jankowalski@asdfgh.com?subject=Ankieta" method="post" enctype="text/plain" accept-charset="utf-8">
+            <!--Imię: <input type="text" name="imie" value="Wartość domyślna" size="15" maxlength="15" readonly="readonly" disabled="disabled" /><br />-->
+            Imię: <input type="text" name="imie" size="15" maxlength="15" /><br />
+            Hasło: <input type="password" name="haslo" /><br />
+            <br />
+            <fieldset>
+                <legend>Jakie jest Twoje hobby?</legend>
+                <input type="checkbox" name="hobby" value="plywanie" id="plywanie" /> <label for="plywanie">Pływanie</label> <br />
+                <input type="checkbox" name="hobby" value="gry_komputerowe" id="gry_komputerowe" /> <label for="gry_komputerowe">Gry komputerowe</label> <br />
+                <input type="checkbox" name="hobby" value="programowanie" id="programowanie" /> <label for="programowanie">Programowanie</label> <br />
+            </fieldset>
+
+            <br />
+            <fieldset>
+                <legend>Do jakiej kategorii wiekowej należysz?</legend>
+                <input type="radio" name="kategoria_wiekowa" value="1-18" id="a1" /><label for="a1">1-18</label> <br />
+                <input type="radio" name="kategoria_wiekowa" value="19-34" id="a2" /><label for="a2">19-34</label> <br />
+                <input type="radio" name="kategoria_wiekowa" value="35+" id="a3" /><label for="a3">35+</label> <br />
+            </fieldset>
+            <br />
+            <textarea cols="20" rows="10" disabled="disabled">
+                Treść nie do zmieniania.
+            </textarea>
+            <br /><br />
+
+            <select name="kolory" multiple="multiple">
+                <option value="czerwony">Czerwony</option>
+                <option value="zielony">Zielony</option>
+                <option value="niebieski">Niebieski</option>
+            </select>
+            <br /><br />
+
+            <input type="file" name="plik" />
+            <br /><br />
+
+            <button type="submit">
+                <table>
+                    <tr><td>1</td><td>2</td></tr>
+                    <tr><td>3</td><td>4</td></tr>
+                </table>
+            </button>
+            <br /><br />
+            <input type="hidden" name="data" value="20.11.2020" />
+            <input type="submit" value="Wyślij" /><br /> <!--enctype="multipart/form-data" in from ^^^-->
+            <br />
+
+            <!--imie=Marcin-->
+
+        </form>
+    </body>
+</html>
