@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pl" lang="pl">
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <meta http-equiv="content-language" content="pl" />
+
+        <meta name="author" content="Marcin Bieleń" />
+        <meta name="robots" content="index, follow" />
+        <title>Programowanie, Marcin Bieleń</title>
+        <meta name="description" content="Programowanie, frontend, backend, machine learning, cybersecurity" />
+        <meta name="keywords" content="programowanie, frontend, backend, machine learning, cybersecurity" />
+    </head> 
+    <!--frameset - zbiór ramek
+        cols - kolumny
+        rows - wiersze-->
+    <frameset rows="15%, *" border="5" frameborder="yes" framespacing="20" bordercolor="pink">
+        <frame src="banner.html"/>
+        <frameset cols="20%, *, 20%" border="5" frameborder="yes" framespacing="20" bordercolor="pink">
+            <frame src="menu.html" noresize="noresize" />
+            <frame src="subpage.html" name="glowna_tresc" />
+            <frame src="menu.html" noresize="noresize" />
+            <noframes>
+                <body>
+                    Twoja przeglądarka nie obsługuje ramek
+                </body>
+            </noframes>
+        </frameset>
+    </frameset>
+</html>
